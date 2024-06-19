@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashwat Awasthi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+    <script src="https://kit.fontawesome.com/46d84964b4.js" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo"><i class="fa-solid fa-code"></i>  Shashwat Awasthi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">
+                    <i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-circle-info"></i>
+                    About</a></li>
+                <li><a href="#experience"><i class="fa-solid fa-gear"></i>Skills</a></li>
+                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i>
+                    Projects</a></li>
+                <li><a href="#contact">
+                    <i class="fa-solid fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shashwat Awasthi</div>
+        <div class="hamburger-menu ">
+            <div class="hamburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                
+                <li><a href="#profile" onclick="togglemenu()">Home</a></li>
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/my-pic2green.jpg" alt="Shashwatpfp" >
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Shashwat Awasthi</h1>
+            <p class="section__text__p2">Front-End Developer and Competitive Programmer</p>
+            <p class="sosbio">
+                Web Developer at <a href=
+                "https://www.linkedin.com/company/tesla-club-nitp/"
+                class="soclinks" target="_blank">
+                T.E.S.L.A.</a>
+       
+                
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                    <i class="fa-solid fa-file"></i>    Résumé</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                
+                <a href="https://www.linkedin.com/in/shashwat-awasthi18/" target="_blank">
+                    <img src="./assets/linkedin.png" alt="Linkedin profile"  
+                class="icon ">
+                </a>
+                
+                 <a href="https://github.com/shashwat-a18" target="_blank">
+                    <img src="./assets/github.png" alt="Github profile"  
+                class="icon ">
+                </a>
+            </div>
+        </div>
+        
+    </section>
+    <section id="about">
+        <!--<p class="section__text__p1">Get To Know More</p>-->
+        <h1 class="title aboutme">So, who am I?</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/pngegg.png" alt="Hobbies Icon"
+                        class="icon">
+                        <h3>Hobbies</h3>
+                        <p class="changecol">Video Games <br /> Sports</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education Icon"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p class="changecol">High-school - 97.8% <br /> Senior-school - 97.6% <br />
+                        College - 8.2 GPA</p>
+                    </div>
+                </div>
+                <div class="text-container ">
+                    <p class="aboutme">I hail from the charming town of Banda, where I spent my formative years. Ever since I was a child, video games captured my imagination, often diverting my attention from studies. However, it all changed in 9th grade when coding was introduced into my curriculum. Suddenly, a new world of possibilities unfolded before me, and I was hooked.
+
+<br /><br />Sports, particularly cricket and pro-wrestling, play a significant role in my life. Whether I’m on the field playing cricket or cheering for my favorite pro-wrestlers, sports provide a thrilling escape and a source of camaraderie.
+
+<br /><br />I also have a knack for the culinary arts, though it's more of an occasional therapeutic escape. If you venture into my YouTube or Instagram app, you'll find a few cooking videos sprinkled among my interests.
+
+<br /><br />Another passion of mine involves capturing the beauty of nature and transforming those moments into cinematic masterpieces. There's something truly magical about the process of capturing nature's essence and then bringing it to life through editing.
+
+<br /><br />Welcome to my world, where the worlds of coding, sports, and cinematic storytelling converge.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow"
+        onclick="location.href='./#experience' " />
+        
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Language</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>C/C++</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>Java</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+			<article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>Golang</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Dev Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>Application Programming Interface(API)</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>Django</h3>
+                            </div>
+                        </article>
+			<article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                            </div>
+                        </article>
+			<article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                            </div>
+                        </article>
+			<article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>NodeJS</h3>
+                            </div>
+                        </article>
+			<article>
+                            <img src="./assets/checkmark.png" alt="experience-icon"
+                            class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+          
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow"
+        onclick="location.href='./#projects' " />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="project-container">
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-1.png" alt="project1"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Student Info System</h2>
+                <div class="btn-container">
+                    
+                    <a href="https://github.com/shashwat-a18/Student-Information-System" target="_blank">
+                        <button class="btn btn-color-2 project-btn">
+                            <i class="fa-brands fa-github"></i>
+                            Github</button>
+                    </a>
+                </div>
+                </div>  
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow-icon" class="icon arrow"
+        onclick="location.href='./#contact' " />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <p class="section__text__p1">shashwatawasthi18@gmail.com</p>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="contact-container details-container">
+                    <form >
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" id="name" required>
+                                <label for="name"><i class="fa-solid fa-user"></i>
+                                    Your Name</label>
+                            </div>
+                            
+                            <div class="input-group">
+                                <input type="text" id="number" required>
+                                <label for="number"><i class="fa-solid fa-phone"></i>
+                                    Phone No.</label>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="input-group">
+                            <input type="text" id="email" required>
+                            <label for="email"><i class="fa-solid fa-envelope"></i>
+                                Email Id</label>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea id="message"  rows="8" required></textarea>
+                            <label for="message"><i class="fa-solid fa-message"></i>
+                                Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-color-2 project-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            SUBMIT
+                        </button>
+                        
+                    </form>
+        </div>
+    </div>  
+</div>
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container footnav">
+                <ul class="nav-links">
+                    
+                    <li><a href="#profile">
+                        <i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-circle-info"></i>
+                        About</a></li>
+                    <li><a href="#experience"><i class="fa-solid fa-gear"></i>Skills</a></li>
+                    <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i>
+                        Projects</a></li>
+                    <li><a href="#contact">
+                        <i class="fa-solid fa-phone"></i>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Shashwat Awasthi. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
