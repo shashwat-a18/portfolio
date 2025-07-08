@@ -362,33 +362,51 @@ article .icon{
 .color-container{
     border-color: rgb(54, 184, 76);
     background: rgb(250,250,250);
-    width: 300px;
-    min-height: 400px;
+    width: 350px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.color-container:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .project-img{
     border-radius: 2rem;
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
+    margin-bottom: 1rem;
 }
 
 .project-title{
-    margin: 1rem;
+    margin: 1rem 0;
     color: black;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .project-container .article-container{
-    padding: 1rem;
+    padding: 1.5rem;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-container .details-container{
     margin: 0;
+}
+
+.project-container .btn-container{
+    margin-top: auto;
+    padding-top: 1rem;
 }
 
 .project-btn{
@@ -400,11 +418,11 @@ article .icon{
 .project-container{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     flex-wrap: wrap;
-    gap: 2rem;
-    margin: 2rem auto;
-    max-width: 1200px;
+    gap: 2.5rem;
+    margin: 3rem auto;
+    max-width: 1400px;
     padding: 0 2rem;
 }
 
