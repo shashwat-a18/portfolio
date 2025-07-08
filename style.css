@@ -360,20 +360,35 @@ article .icon{
 }
 
 .color-container{
-    border-color:rrgb(54, 184, 76) ;
+    border-color: rgb(54, 184, 76);
     background: rgb(250,250,250);
+    width: 300px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .project-title{
     margin: 1rem;
     color: black;
+    text-align: center;
+}
 
+.project-container .article-container{
+    padding: 1rem;
+    flex: 1;
+}
+
+.project-container .details-container{
+    margin: 0;
 }
 
 .project-btn{
@@ -383,16 +398,15 @@ article .icon{
 
 
 .project-container{
-    
-    margin-left: 25rem;
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
     display: flex;
-    height: 70vh;
-    width: 25rem ;
-
- }
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
 
  /*footer*/
 footer{

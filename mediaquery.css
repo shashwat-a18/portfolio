@@ -42,7 +42,14 @@
         margin-top: 0;
     }
     .project-container{
-        display: inline;    
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    
+    .color-container{
+        width: 100%;
+        max-width: 350px;
     }
 }
 @media screen and (max-width: 600px){
