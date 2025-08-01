@@ -79,26 +79,6 @@
         gap: 1.5rem;
     }
     
-    .profile-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 1.5rem;
-        margin-bottom: 2rem;
-    }
-    
-    .profile-image {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .profile-info h3 {
-        font-size: 1.5rem;
-    }
-    
-    .profile-title {
-        font-size: 1rem;
-    }
-    
     .about-card {
         padding: 1.5rem;
     }

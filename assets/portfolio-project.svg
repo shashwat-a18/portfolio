@@ -1,0 +1,43 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#00ff88"/>
+    </linearGradient>
+    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#111111"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#bg)"/>
+  
+  <!-- Binary pattern -->
+  <text x="20" y="30" fill="#ffffff" opacity="0.1" font-size="12" font-family="monospace">01001000 01100101 01101100 01101100 01101111</text>
+  <text x="20" y="50" fill="#ffffff" opacity="0.1" font-size="12" font-family="monospace">01010111 01101111 01110010 01101100 01100100</text>
+  <text x="20" y="70" fill="#ffffff" opacity="0.1" font-size="12" font-family="monospace">01000011 01010011 01010011 00100000 01001000</text>
+  
+  <!-- Terminal window -->
+  <rect x="80" y="90" width="240" height="120" fill="url(#terminalBg)" rx="8" stroke="#00ff88" stroke-width="2"/>
+  
+  <!-- Terminal header -->
+  <rect x="80" y="90" width="240" height="25" fill="#1a1a1a" rx="8 8 0 0"/>
+  <circle cx="95" cy="102" r="4" fill="#ff6b6b"/>
+  <circle cx="110" cy="102" r="4" fill="#ffbd2e"/>
+  <circle cx="125" cy="102" r="4" fill="#00ff88"/>
+  
+  <!-- Terminal content -->
+  <text x="90" y="135" fill="#00ff88" font-size="12" font-family="monospace">$ whoami</text>
+  <text x="90" y="155" fill="#ffffff" font-size="12" font-family="monospace">shashwat-dev</text>
+  <text x="90" y="175" fill="#00ff88" font-size="12" font-family="monospace">$ ls portfolio/</text>
+  <text x="90" y="195" fill="#0066ff" font-size="12" font-family="monospace">index.html style.css</text>
+  
+  <!-- Code brackets -->
+  <text x="50" y="130" fill="#00ff88" font-size="24" font-weight="bold" opacity="0.5">&lt;/&gt;</text>
+  <text x="340" y="180" fill="#00ff88" font-size="24" font-weight="bold" opacity="0.5">{}</text>
+  
+  <!-- Title -->
+  <rect x="50" y="220" width="300" height="25" fill="rgba(10, 10, 10, 0.8)" rx="5"/>
+  <text x="200" y="238" text-anchor="middle" fill="#00ff88" font-size="16" font-weight="bold" font-family="monospace">Portfolio Website</text>
+</svg>
